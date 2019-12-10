@@ -1,0 +1,80 @@
+.mygreen {
+  color: #2eca6a;
+}
+
+.text-brand {
+  font-family: 'Poppins', sans-serif;
+  color: #000000;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+
+.sticky-wrapper {
+    position: relative;
+    height: 50px; /* We need to change this value */
+
+  }
+  
+  .sticky .sticky-inner {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    height: 50px;
+    background-color: white;
+    display:block;
+    z-index:999;
+    border-style: none;
+  }
+
+  .menuBox{
+      position: relative;
+      height: 100%;
+  }
+
+  .menuRow{
+    position: absolute;
+    bottom: 0;
+    width: 90%;  
+  }
+
+  .title {
+    font-family: 'Poppins', sans-serif;
+    font-size: xx-large;
+  }
+
+  .menuBottom {
+    position: absolute;
+    bottom: 0;
+    width:100%;
+    padding-bottom:8px;
+  }
+
+  .menuLogin {
+      text-align: right;
+  }
+
+  .menulLink {
+    text-align: right;
+    }
+
+
+  @media only screen and (max-width: 575px) {
+    .title {
+        font-size:larger;
+        padding-bottom:9px;
+    }
+    .sticky .sticky-inner {
+        height: 50px;
+    }
+    .menuBottom{
+        font-size: small;
+        padding-bottom:15px;
+    }
+    .menuLink{
+        text-align: center;
+    }
+  }
+
